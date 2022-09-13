@@ -18,6 +18,6 @@ class FormatCsv
     end
     new_csv = new_csv.reject.with_index{|v, i| i != 0 || i != 1 || i != 2 || i != 3 || i != 4 }
     new_csv << "appt_begin_data"
-    new_csv << "appt_end_date"
+    new_csv << "appt_end_date" 
   end
 end
